@@ -4,4 +4,4 @@ WORKDIR /home
 
 COPY . ./
 
-CMD ["python", "./app/main.py"]
+CMD ["python", "./app/parent/another_parent.py"]

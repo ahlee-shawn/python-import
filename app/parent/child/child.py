@@ -1,4 +1,5 @@
-from ..parent import parent_function
+import parent
 
 def call_parent():
-    parent_function()
+    parent.parent_function()
+    print("hi")
